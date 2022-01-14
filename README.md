@@ -4,5 +4,5 @@ Chrome extension to update all external links on GitHub to open in a new tab sin
 
 If installed, here's a demo.
 
-[GitHub internal link](https://github.com/ConduciveMammal)
-[GitHub external link](https://google.com)
+- [GitHub internal link](https://github.com/ConduciveMammal)
+- [GitHub external link](https://google.com)
