@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "GitHub New Tab",
+  "description": "This extension forces GitHub's external links to open in a new tab.",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "https://github.com/*"
+  ],
+  "icons": { "16": "icon.png",
+    "48": "icon@3x.png",
+   "128": "icon@8x.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
